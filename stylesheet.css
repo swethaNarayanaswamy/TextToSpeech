@@ -1,0 +1,50 @@
+    
+body{
+   padding: 0;
+   margin: 0;
+   box-sizing: content-box;
+   background-image:url("bg.jpg");  
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+#container{
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction:column;
+    height: 80vh;
+    width:90vh;
+    
+}
+.h1{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue; 
+    text-shadow: 3PX 10PX 20px black;
+    padding-top: 100px;
+}
+textarea{
+    height: 250px;
+    width: 450px;
+    margin-left: 15%;
+    box-shadow:3PX 4PX 10px black ;
+    border-radius: 5px;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 35%;
+    box-shadow:3PX 4PX 10px black ;
+    font-family: "Sofadi One", system-ui;
+    font-size: medium;
+}
